@@ -27,7 +27,7 @@ export default {
             target: this.field.attribute,
             values: { min: this.field.min ?? 0, max: this.field.max ?? 100 },
             scale: false,
-            set: [this.orginal ?? 0],
+            set: [this.field.value],
             labels: false,
             step: this.field.step ?? 1,
             tooltip: true,
